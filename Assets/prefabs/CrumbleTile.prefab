@@ -46,7 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223ce2beafeb6b4409d84286756985d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrumblingTile
-  fallDelay: 0.8
+  fallDelay: 2
+  shakeDelay: 0.4
+  shakeAmount: 0.05
+  shakeSpeed: 20
   tileVisual: {fileID: 2761521935727766047}
 --- !u!136 &111347126621807748
 CapsuleCollider:
